@@ -19,7 +19,7 @@ Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och s
 ---
 
 ## 🖼️ Preview
-[![Preview PDF](https://img.shields.io/badge/Preview-PDF-blue)](cv-jonas/assets/pbi.pdf)
+[![Preview PDF](https://img.shields.io/badge/Preview-PDF-blue)](cv-jonas/pbi.pdf)
 
 
 ---
