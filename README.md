@@ -1,25 +1,27 @@
-# Jonas Öhman - CV in LaTeX
+# Jonas Öhman – CV in LaTeX
 
-Detta repository innehåller mitt CV i LaTeX med progress bars och dashboards.
+Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och systemerfarenhet.
 
-## 📄 Innehåll
-- `cv_jonas_okt_25.tex` – LaTeX-kod
-- `CV_Jonas_Öhman_Okt_25_Analytics.pdf` – PDF-version
+---
 
+## 📄 Filer
+- `CV_Jonas_Ohman_Okt_25_Analytics.pdf` – PDF-version av CV  
+- `jonas_ohman_cv.tex` – LaTeX-kod  
+- `assets/` – bilder och screenshots
 
-## ⚡ Tekniker
-- LaTeX / ModernCV
-- TikZ (progress bars)
-- tcolorbox
-- PDF & GitHub version control
+---
 
-## 🔗 Kontakt
-- LinkedIn: [linkedin.com/in/jonasohm](https://linkedin.com/in/jonasohm)
-- GitHub: [github.com/jonasohm-png/cv](https://github.com/jonasohm-png/cv)
-
-
-![LaTeX](https://img.shields.io/badge/LaTeX-TikZ-blue)
+## ⚡ Teknologier
+[![LaTeX](https://img.shields.io/badge/LaTeX-TikZ-blue)](https://www.latex-project.org/)  
 [![PDF](https://img.shields.io/badge/PDF-Download-green)](https://raw.githubusercontent.com/jonasohm-png/cv/main/cv_jonas/CV_Jonas_Ohman_Okt_25_Analytics.pdf)
 
+---
 
+## 🖼️ Preview
+![CV Preview](assets/powerbi_screenshot.png)
 
+---
+
+## 🔗 Kontakt
+- LinkedIn: [linkedin.com/in/jonasohm](https://linkedin.com/in/jonasohm)  
+- GitHub: [github.com/jonasohm-png](https://github.com/jonasohm-png)
