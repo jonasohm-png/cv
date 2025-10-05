@@ -18,3 +18,5 @@ Detta repository innehåller mitt CV i LaTeX med progress bars och dashboards.
 - GitHub: [github.com/jonasohm-png/cv](https://github.com/jonasohm-png/cv)
 
 
+![LaTeX](https://img.shields.io/badge/LaTeX-TikZ-blue)
+![PDF](https://img.shields.io/badge/PDF-Download-green)
