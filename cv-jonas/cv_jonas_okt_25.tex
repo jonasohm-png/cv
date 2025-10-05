@@ -1,0 +1,134 @@
+% Jonas Öhman - CV (LaTeX) med progress bars
+% Kompilera med xelatex eller lualatex för bästa teckensnitts- och UTF-8-stöd
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.89]{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+% Progress bar (korrekt)
+\newcommand{\skill}[2]{%
+  \textbf{#1} \hfill \begin{tikzpicture}[baseline=-0.5ex]
+    \fill[blue!70] (0,0) rectangle (#2*5cm,0.3cm);
+    \fill[gray!30] (#2*5cm,0) rectangle (5cm,0.3cm);
+  \end{tikzpicture}
+}
+
+\newtcolorbox{skillbox}[1]{
+  colback=blue!20!white,
+  colframe=blue!75!black,
+  boxrule=0.5mm,
+  arc=3mm,
+  auto outer arc,
+  width=0.9\linewidth,  % relativt sidans bredd
+  halign=left,
+  valign=center
+}{}
+
+
+% Personal data
+\firstname{Jonas}
+\familyname{\"Ohman}
+\title{Data \& Analytics Specialist | Business Controller}
+\address{Stockholm, Sweden}{}
+\phone[mobile]{+46 70 281 25 00}
+\email{jonasohm@gmail.com}
+\social[linkedin]{jonasohm}
+\social[github]{jonasohm-png}
+
+% Ta bort sidnummer ovanför namnet (moderncv hack)
+\makeatletter
+\patchcmd{\@makecvtitle}{\thispagestyle{plain}}{\thispagestyle{empty}}{}{}
+\makeatother
+
+\begin{document}
+\makecvtitle
+
+% Profile / Summary
+\section{Profil | Sammanfattning}
+Business Controller med expertis inom Power BI, SQL, ETL och finansiell rapportering. Bygger dashboards och datamodeller som gör komplex finansiell data begriplig och användbar för strategiska beslut. Erfaren inom budgetering, prognos och KPI-analyser, med starkt fokus på automatisering av rapporteringsprocesser och realtidsinsikter.
+
+% Core skills
+\section{Kärnkompetenser}
+Finance \& Controlling | Data \& Analytics | Systems \& ERP | Processoptimering | Intressenthantering
+
+% Work Experience
+\section{Arbetslivserfarenhet}
+
+\cventry{2022--Nuvarande}{Business Controller / Power BI Consultant}{Kicks AB}{Stockholm}{}{
+\begin{itemize}
+  \item Utvecklar self-service Power BI dashboards för ledning och verksamhet.
+  \item Automatiserar dataprocesser med SQL och ETL, förbättrar datakvalitet och sparar tid.
+  \item Ansvarar för budgetering, forecasting och KPI-analyser för Kicks Nordics-butiker.
+\end{itemize}}
+
+\cventry{2019--2022}{Supply Chain \& Systems Manager}{Fogia Collection AB}{Stockholm}{}{
+\begin{itemize}
+  \item Projektledare för Salesforce-implementation som CRM och ERP.
+  \item Designade datamodeller för förbättrat beslutsstöd och affärsplanering.
+\end{itemize}}
+
+\cventry{2015--2019}{Purchasing Manager / Business Controller}{Vitamin Well AB}{Stockholm}{}{
+\begin{itemize}
+  \item Hanterade inköp, produktionsplanering och kostnadsanalys för globala fabriker.
+  \item Ansvarade för produktutveckling, nya fabriksupplägg och logistiska förhandlingar.
+\end{itemize}}
+
+\cventry{2011--2015}{Business Controller / Product Developer}{WeSC AB}{Stockholm}{}{
+\begin{itemize}
+  \item Skapade Power Pivot- och KUB-baserade dashboards för produkt- och försäljningsanalys.
+\end{itemize}}
+
+\cventry{2010--2011}{Commodity Manager}{Kollmorgen AB}{Stockholm}{}{}
+\vspace{0.3cm}
+\cventry{2008--2010}{Sourcing Manager}{Scania CV AB}{Stockholm}{}{}
+
+% Education
+\section{Utbildning}
+\cventry{2005--2008}{B.Sc. Industrial Economics \& Management}{KTH}{Stockholm}{}{}
+\cventry{2009}{Makroekonomi}{Södertörn}{Stockholm}{}{}
+
+% Technical Skills with progress bars
+\section{Tekniska färdigheter}
+\skill{Power BI}{0.9} \\
+\skill{SQL}{0.8} \\
+\skill{ETL}{0.65} \\
+\skill{Excel}{0.95} \\
+
+\section{Systemerfarenhet}
+\skill{Anaplan}{0.8} \\
+\skill{Planacy}{0.8} \\
+\skill{Dynamics}{0.7} \\
+\skill{Salesforce}{0.75} \\
+\skill{Oracle}{0.7} \\
+
+
+% Bottom section: Languages & Interests in two columns
+\section{Språk och Intressen}
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Språk:} \\ 
+Svenska (Modersmål) \\ 
+Engelska (Flytande) \\ 
+Tyska (Medel)
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Intressen:} \\ 
+Snowboard \\ 
+Naturen \\ 
+Matlagning \\ 
+Hobbysnickare
+\end{minipage}
+
+\vspace{1em}
+%egin{center}
+ % \small{Referenser lämnas på begäran}
+%\end{center}
+
+\end{document}
