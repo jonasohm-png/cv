@@ -10,7 +10,7 @@ Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och s
 ---
 
 ## 📄 Filer
-- `CV_Jonas_Ohman_Okt_25_Analytics.pdf` – PDF-version av CV  
+- `CVJONAS20251003` – PDF-version av CV  
 - `jonas_ohman_cv.tex` – LaTeX-kod  
 - `assets/` – bilder och screenshots
 
