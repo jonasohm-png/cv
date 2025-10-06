@@ -8,6 +8,10 @@ Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och s
 [![Preview PDF](https://img.shields.io/badge/Preview-PDF-blue)](cv-jonas/pbi.pdf)
 
 ---
+## 🔗 Kontakt
+- LinkedIn: [linkedin.com/in/jonasohm](https://linkedin.com/in/jonasohm)  
+- GitHub: [github.com/jonasohm-png](https://github.com/jonasohm-png)
+---
 
 ## 📄 Filer
 - `CVJONAS20251003` – PDF-version av CV  
@@ -28,6 +32,4 @@ Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och s
 
 ---
 
-## 🔗 Kontakt
-- LinkedIn: [linkedin.com/in/jonasohm](https://linkedin.com/in/jonasohm)  
-- GitHub: [github.com/jonasohm-png](https://github.com/jonasohm-png)
+
