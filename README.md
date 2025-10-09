@@ -4,10 +4,10 @@ Detta repository innehåller mitt CV i LaTeX med progress bars, dashboards och s
 ## 📄 CV
 [![PDF](https://img.shields.io/badge/PDF-Download-green)](https://raw.githubusercontent.com/jonasohm-png/cv/main/cv-jonas/CVJONAS20251003.pdf)
 
-<!--
+
 ## 🖼️ Work Preview
 [![Preview PDF](https://img.shields.io/badge/Preview-PDF-blue)](cv-jonas/pbi.pdf)
--->
+
 ---
 ## 🔗 Kontakt
 - LinkedIn: [linkedin.com/in/jonasohm](https://linkedin.com/in/jonasohm)  
